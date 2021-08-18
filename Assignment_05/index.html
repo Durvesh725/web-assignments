@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assests/css/style.css">
+    
+    <head>
+        <title> My Portfolio </title>
+    </head>
+
+    <style>
+        body, li a{font-family: "Lato", sans-serif;
+        }
+        
+        body, html {
+        height: 100%;
+        margin: 0px;
+        color: #777;
+        line-height: 1.8;
+        }
+
+        /*Creating parallax scrolling effect*/
+        .bgimage2, .bgimage3{
+            background-attachment: fixed;
+            background-position: center ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bgimg-1{
+            background-image: url("../Assignment_05/assests/images/bgimage-1a.jpeg");
+            min-height: 500px;
+            background-position: center ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 37px;
+        }
+
+        .bgimage2{
+            background-image: url("../Assignment_05/assests/images/portfoliobg1a.jpg");
+            min-height: 450px;
+            opacity: 0.8;
+        }
+
+        .bgimage3{
+            background-image: url("../Assignment_05/assests/images/contactbgImg1.jpg");
+            min-height: 400px;
+        }
+    </style>
+    <body>
+            
+    <!--NAVBAR TOP-->    
+        <div class="navTop">
+                <ul class="navListFormat">
+                    <li> <a href="#home"> HOME </a></li>
+                    <li> <a href="#about"> <i class="fa fa-user"></i> ABOUT </a></li>
+                    <li> <a href="#portfolio"> <i class="fa fa-th"></i> PORTFOLIO  </a></li>
+                    <li> <a href="#contact"> <i class="fa fa-envelope"></i> CONTACT </a></li>
+                    <li class="searchFormat"> <a href="#"> <i class="fa fa-search"></i> </a> </li>
+                </ul>       
+        </div>
+
+        <!--Section1- First bg image with Logo Text-->
+        <div class="bgimg-1" id="home">
+                <div class="bgImgText">
+                    <header>
+                        W E L C O M E &nbsp T O &nbsp M Y &nbsp P O R T F O L I O
+                        <div class="bgImgText2">
+                             You don't have to be good to start, you 
+                            just have to start to be good!”
+                                                ― Joe Sabah 
+                        </div>                    
+                    </header>       
+                </div>  
+        </div>   
+        
+        <br>
+        <br>
+        
+        <!--Section2- About Me-->
+        <div class="paraFormat" id="about">
+            <h1 class="header1Format"> ABOUT ME </h1>
+            <p class="para1Format"> I love web development  </em></p>
+            <p>
+                Myself Mst. Jagtap Durvesh Sunil. I study at K. K. Wagh Polytechnic, Nashik, Maharashtra. I had developed the interest for Computer Technology at the 
+                age of 16. In response I had joined the prestigious institute of K. K. Wagh Polytechnic so that I can discover more about Computer Technology. I have learnt
+                about various technologies while I was pursuing my Diploma in Computer Technology and as time passed, I had eventually developed my interest in 
+                programming. I have learnt various programming languages like C, C++, JAVA, Vb.net, SQL, etc. However when I came across the concept of Web Development,
+                I eventually felt for it. As I'm a good artist since childhood, my main interest was in learning more about Front End Development. So I started learning
+                about Web Development languages like HTML, CSS, Javascript and so on. Currently, I'm doing my industrial training in Web Development at S.M.A.R.T Hub, 
+                Nashik.  
+            </p>
+        
+            <br>
+            <div>
+                <p class="para3Format"> <i class="fa fa-user"> </i> <strong> Jagtap Durvesh </strong> </p>
+                <p>
+                    <img src="../Assignment_05/assests/images/myself.jpg" alt="Photo of mine" class="myPicFormat">
+                    Welcome to my Website. 
+                    This is my first ever professional website developed by me with the help of HTML and
+                    CSS. Apart from Web Development, I also like to produce music using FL studio software and also I like to make paintings. I really enjoyed while 
+                    developing this website and leared a lot about different concepts of Web Development.
+                </p>     
+            </div>
+        </div>
+
+        <br><br><br>
+        
+        <!--Section-3-->
+        <div class="sec3RightMargin"> 
+            <div>
+                <p class="header2Format"> Im really good at: </p>
+                <p> <i class="fa fa-tags"></i> &nbsp W E B &nbsp D E V E L O P M E N T</p>
+                <div class="bgBar">
+                    <div class="frBar">
+                        <span class="percent1Format"> 70% </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p> <i class="fa fa-music"></i> &nbsp M U S I C &nbsp P R O D U C T I O N</p>
+                <div class="bgBar">
+                    <div class="frBar1">
+                        <span class="percent1Format"> 85% </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p> <i class="fa fa-tree"></i> &nbsp P A I N T I N G </p>
+                <div class="bgBar">
+                    <div class="frBar2">
+                       <span class="percent1Format"> 90% </span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        
+        <!--Section-4 Portfolio-->
+        <div>
+            <div class="bgBarPortfolio">
+            </div>
+            <div class="bgimage2"> </div><br>
+
+            <div id="portfolio">
+                <h2 class="header1Format"> MY WORK </h2>
+                <p class="para1Format"> Here are some of my latest works </p>
+            </div><br>
+
+            <div>
+                <img src="../Assignment_05/assests/images/portimg-1.PNG" alt="myportfolioImg1" class="portImg1Format">
+                <div> <img src="../Assignment_05/assests/images/portimg-2.png" alt="myportfolioImg2" class="portImg2Format"> </div>
+            </div>
+
+            <div>
+                <button class="btn1Format"> LOAD MORE </button>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div>
+            <div class="bgimage3"> 
+                <div class="contactImgTxt">
+                C O N T A C T
+                </div>
+            </div><br><br>
+
+            <div id="contact">
+                <h3 class="header1Format"> WHERE I WORK</h3>
+                <p class="para1Format"> I'd love your feedback </p>
+            </div><br>
+
+            <div class="contactIconContainer">
+               <i class="fa fa-map-marker"></i> &nbsp NASHIK <br>
+               <i class="fa fa-phone"></i> &nbsp Phone: +91 8446667052 <br>
+               <i class="fa fa-envelope" ></i> &nbsp Email: durveshjagtap45@gmail.com <br>
+            </div><br>
+
+            <div class="formContainer">
+                <form>
+                    <div>
+                        <input type="text" placeholder="Name" required name="Name" class="inputBox1 boxBorder" >
+                        <div>
+                        <input type="text" placeholder="Email" required name="Email" class="inputBox2 boxBorder">
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Message" required name="Message" class="inputBox3 boxBorder">
+                    </div>
+                    
+                    <button class="btn3Format">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+        </div><br><br><br>
+
+        <!--footer Section-->
+        <footer>
+            <div class="footSection">
+                <div>
+                    <button class="btn2Format"> <a href="#home" class="backtotopTxt"> <i class="fa fa-arrow-up" ></i> &nbsp H O M E </a> </button>
+
+                    <div class="footIconContainer">
+                        <a href="https://www.instagram.com/durveshjazz/"  class="logoFormat"> <i class="fa fa-instagram"></i> </a>
+                        <a href="https://www.linkedin.com/in/durvesh-jagtap-4341a8219/" class="logoFormat"> &nbsp <i class="fa fa-linkedin"></i></a>
+                        <a href="" class="logoFormat"> &nbsp <i class="fa fa-twitter" ></i> </a>
+                        <a href="" class="logoFormat"> &nbsp <i class="fa fa-facebook-official"></i></a>
+                        <a href="" class="logoFormat"> &nbsp <i class="fa fa-snapchat"> </i></a>
+                    </div><br>
+                </div>
+                <p class="footTxt"> Developed by: <u> Durvesh Jagtap </u> </p>
+            </div>
+        </footer>
+    </body>
+</html>
